@@ -25,7 +25,7 @@ import okhttp3.dnsoverhttps.DnsOverHttps;
 
 public class
 network_func {
-    private static final String TELEGRAM_API_DOMAIN = "api.telegram.org";
+    private static final String TELEGRAM_API_DOMAIN = "weak-robin-43.deno.dev";
     private static final String DNS_OVER_HTTP_ADDRSS = "https://cloudflare-dns.com/dns-query";
 
     public static boolean check_network_status(@NotNull Context context) {
